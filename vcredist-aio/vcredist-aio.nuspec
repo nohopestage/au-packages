@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vcredist-aio</id>
+    <version>0.60.0</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <owners>nohopestage</owners>
+    <title>VisualCppRedist AIO</title>
+    <authors>ricktendo64, burfadel, abbodi1406</authors>
+    <projectUrl>https://github.com/abbodi1406/vcredist</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/vcredist-aio.png</iconUrl>-->
+    <licenseUrl>https://github.com/abbodi1406/vcredist/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/abbodi1406/vcredist</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/abbodi1406/vcredist/issues</bugTrackerUrl>
+    <tags>microsoft visual c++ runtime redistributable vcredist vcruntime</tags>
+    <summary>AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.</summary>
+    <releaseNotes>https://github.com/abbodi1406/vcredist/releases/latest</releaseNotes>
+    <description>
+# VisualCppRedist AIO
+
+## Overview:
+
+- AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.
+
+- Built upon VBCRedist_AIO_x86_x64.exe by **@ricktendo64**
+
+- The process is handled by a windows command script, which runs hidden in the background by default.
+
+- Before installation, the script will check and remove existing non-compliant Visual C++ Runtimes, including the original EXE or MSI setups, or older MSI packages versions.
+
+- The uninstallation option/script will remove any detected VC++ runtimes (except UCRT).
+
+- Windows XP support is partial, the pack will install and detect the latest runtimes versions, but it will not check and remove non-compliant versions.
+
+- You can extract the installer file with 7-zip or WinRar to a short path, and run Installer.cmd as administrator
+
+## Contents:
+
+- Visual C++ Redistributables (x86/x64)  
+2005: 8.0.50727.6229  
+2008: 9.0.30729.7523  
+2010: 10.0.40219.473  
+2012: 11.0.61135.400  
+2013: 12.0.40664.0  
+2022: Latest
+
+- Visual Studio 2010 Tools for Office Runtime (x86/x64)  
+10.0.60833.0
+
+- Legacy Runtimes (x86)  
+Visual C++ 2002: 7.0.9975.0  
+Visual C++ 2003: 7.10.6119.0  
+Visual Basic Runtimes  
+
+- Universal CRT:  
+a complementary part of VC++ 2022 redist.  
+inbox component for Windows 10/11.  
+delivered as an update for Windows Vista/7/8/8.1, either in Monthly Quality Rollup, KB3118401, or KB2999226.  
+installed with VC++ 2019 redist for Windows XP.  
+this repack will install KB3118401 if UCRT is not available.  
+
+- VC++ 2022 runtimes are binary compatible with VC++ 2015-2017-2019 and cover all VS 2015-2017-2019-2022 programs.
+
+## Windows XP Notice:
+
+* VC++ 2019 version 14.28.29213.0 = [VisualCppRedist_AIO v0.35.0](https://github.com/abbodi1406/vcredist/releases/tag/v0.35.0) is the last version compatible with Windows XP
+
+## Credits:
+
+- [@ricktendo64](https://forums.mydigitallife.net/members/28038/) / MDL forums - repacks.net - wincert.net  
+VBCRedist_AIO_x86_x64.exe creator,  modded MSI installers
+
+- [@burfadel](https://forums.mydigitallife.net/members/84828/) / MDL forums - @thatguy91 / guru3D Forums  
+original installation script
+
+- Visual Basic and Visual C++ are registered trademarks of Microsoft Corporation.
+    </description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
