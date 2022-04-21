@@ -22,6 +22,9 @@ environment:
   github_api_key:
     secure: mOZ4XaCGgFi4k9STETLUn7IKcuYavo+y0Y5PAQG8j9xgBPD6Ml8OtyJhDyXrwm3r #https://ci.appveyor.com/tools/encrypt
 
+  github_username: nohopestage
+  github_password:
+    secure: EnpZ9q2ld5pU/gzAjWJKgQ==
 
   # Mail credentials - for error notifications
   mail_user:
