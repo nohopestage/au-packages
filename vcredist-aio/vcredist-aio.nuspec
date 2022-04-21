@@ -4,19 +4,18 @@
   <metadata>
     <id>vcredist-aio</id>
     <version>0.60.0</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
     <owners>nohopestage</owners>
     <title>VisualCppRedist AIO</title>
     <authors>ricktendo64, burfadel, abbodi1406</authors>
     <projectUrl>https://github.com/abbodi1406/vcredist</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/vcredist-aio.png</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/nohopestage/au-packages/master/icons/vcredist-aio.png</iconUrl>
     <licenseUrl>https://github.com/abbodi1406/vcredist/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/abbodi1406/vcredist</projectSourceUrl>
     <bugTrackerUrl>https://github.com/abbodi1406/vcredist/issues</bugTrackerUrl>
     <tags>microsoft visual c++ runtime redistributable vcredist vcruntime</tags>
     <summary>AIO Repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.</summary>
-    <releaseNotes>https://github.com/abbodi1406/vcredist/releases/latest</releaseNotes>
     <description>
 # VisualCppRedist AIO
 
@@ -77,7 +76,7 @@ original installation script
 
 - Visual Basic and Visual C++ are registered trademarks of Microsoft Corporation.
     </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
