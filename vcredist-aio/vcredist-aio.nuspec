@@ -76,7 +76,7 @@ original installation script
 
 - Visual Basic and Visual C++ are registered trademarks of Microsoft Corporation.
     </description>
-    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <releaseNotes>https://github.com/abbodi1406/vcredist/releases/latest</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
