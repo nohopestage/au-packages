@@ -12,7 +12,7 @@ branches:
 
 environment:
   # Set au version to use or omit to use the latest. Specify branch name to use development version from Github
-  au_version:
+  au_version: master
   au_push: true
   # Force test: use 1 to test all, or N to split testing into N groups
   au_test_groups: 1
@@ -21,10 +21,6 @@ environment:
   github_user_repo: nohopestage/au-packages
   github_api_key:
     secure: mOZ4XaCGgFi4k9STETLUn7IKcuYavo+y0Y5PAQG8j9xgBPD6Ml8OtyJhDyXrwm3r #https://ci.appveyor.com/tools/encrypt
-
-  github_username: nohopestage
-  github_password:
-    secure: EnpZ9q2ld5pU/gzAjWJKgQ==
 
   # Mail credentials - for error notifications
   mail_user:
