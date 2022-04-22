@@ -4,7 +4,7 @@
   <metadata>
     <id>vcredist-aio</id>
     <version>0.60.0</version>
-    <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>
+    <packageSourceUrl>https://github.com/nohopestage/au-packages/tree/master/vcredist-aio</packageSourceUrl>
     <owners>nohopestage</owners>
     <title>VisualCppRedist AIO</title>
     <authors>ricktendo64, burfadel, abbodi1406</authors>
